@@ -49,3 +49,72 @@ Scenario: The example                       # hellocucumber/example.feature:3
 ...
 $ 
 ```
+
+## シナリオ記述での Tips
+
+### And/But の代わりにアスタリスク(*)も使える
+
+```
+Scenario: All done
+  Given I am out shopping
+  And I have eggs
+  And I have milk
+  And I have butter
+  When I check my list
+  Then I don't need anything
+```
+
+```
+Scenario: All done
+  Given I am out shopping
+  * I have eggs
+  * I have milk
+  * I have butter
+  When I check my list
+  Then I don't need anything
+```
+
+### Background
+
+- 全 Scenario に共通で現れる Given は、シナリオの事前条件としては冗長に見える場合がある
+- それらをグループ化して Feature と同じ階層で記述することで理解しやすくなることが期待できる
+- Background は Feature 内で1個しか定義できない
+
+### Scenario Outline
+
+- `Scenario Template` と同義
+
+### DataTable
+
+- [DataTable](https://github.com/cucumber/cucumber-jvm/tree/main/datatable)
+
+- DataTable はメソッドの最後の引数として渡される。
+- 型を指定すれば、テーブルをある程度任意の構造に変換できる
+
+```
+|      |       lat |         lon |
+| KMSY | 29.993333 |  -90.258056 |
+| KSFO | 37.618889 | -122.375000 |
+| KSEA | 47.448889 | -122.309444 |
+| KJFK | 40.639722 |  -73.778889 |
+```
+
+↓ `java type: Map<String, Map<String, String>>`
+
+```
+{
+  "KMSY": { "lat": "29.993333", "lon": "-90.258056" },
+  "KSFO": { "lat": "37.618889", "lon": "-122.375000" },
+  "KSEA": { "lat": "47.448889", "lon": "-122.309444" },
+  "KJFK": { "lat": "40.639722", "lon": "-73.778889" }
+}
+```
+
+### Before
+
+- `Before` はプロセス初期化や、データのクリアのように低レベルのロジックのみに限定する。
+- 挙動の理解を助けるため、`Background` に表現する事を優先する。
+
+### After
+
+- 失敗しても実行される
