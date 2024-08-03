@@ -5,6 +5,12 @@ import io.cucumber.java.en.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+class IsItFriday {
+    static String isItFriday(String today) {
+        return "Friday".equals(today)? "TGIF": "Nope";
+    }
+}
+
 public class StepDefinitions {
 
     @Given("an example scenario")
@@ -19,15 +25,17 @@ public class StepDefinitions {
     public void theScenarioPasses() {
     }
 
+    private String today;
     private String actual;
 
     @Given("today is Friday")
     public void today_is_friday() {
+        today = "Friday";
     }
 
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_friday_yet() {
-        actual = "TGIF";
+        actual = IsItFriday.isItFriday(today);
     }
 
     @Then("I should be told {string}")
