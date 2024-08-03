@@ -26,6 +26,8 @@ $
 
 ## 10 Minute Tutorial
 
+- [Tutorial - Java](https://cucumber.io/docs/guides/10-minute-tutorial/?lang=java)
+
 ```
 $ mvn archetype:generate                      \
    "-DarchetypeGroupId=io.cucumber"           \
