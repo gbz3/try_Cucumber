@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hellocucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.096 s <<< FAILURE! -- in hellocucumber.RunCucumberTest
-An example.The example -- Time elapsed: 0.034 s <<< ERROR!
-io.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.StepDefinitions.anExampleScenario(StepDefinitions.java:13)
-	at ✽.an example scenario(classpath:hellocucumber/example.feature:4)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s -- in hellocucumber.RunCucumberTest

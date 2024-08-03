@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="hellocucumber.RunCucumberTest" time="0.096" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="hellocucumber.RunCucumberTest" time="0.101" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-arm64/lib"/>
-    <property name="sun.java.command" value="/home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire/surefirebooter-20240803102138968_3.jar /home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire 2024-08-03T10-21-38_910-jvmRun1 surefire-20240803102138968_1tmp surefire_0-20240803102138968_2tmp"/>
+    <property name="sun.java.command" value="/home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire/surefirebooter-20240803105748975_3.jar /home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire 2024-08-03T10-57-48_911-jvmRun1 surefire-20240803105748975_1tmp surefire_0-20240803105748975_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/kashiba/_github/try_Cucumber/hellocucumber/target/test-classes:/home/kashiba/_github/try_Cucumber/hellocucumber/target/classes:/home/kashiba/.m2/repository/io/cucumber/cucumber-java/7.18.1/cucumber-java-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-core/7.18.1/cucumber-core-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-gherkin/7.18.1/cucumber-gherkin-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.1/cucumber-gherkin-messages-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/kashiba/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/kashiba/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/kashiba/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/kashiba/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/kashiba/.m2/repository/io/cucumber/datatable/7.18.1/datatable-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-plugin/7.18.1/cucumber-plugin-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/docstring/7.18.1/docstring-7.18.1.jar:/home/kashiba/.m2/repository/io/cucumber/html-formatter/21.4.1/html-formatter-21.4.1.jar:/home/kashiba/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/kashiba/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/kashiba/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kashiba/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.18.1/cucumber-junit-platform-engine-7.18.1.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-engine/1.10.3/junit-platform-engine-1.10.3.jar:/home/kashiba/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-commons/1.10.3/junit-platform-commons-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-suite/1.10.3/junit-platform-suite-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.3/junit-platform-suite-api-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.3/junit-platform-suite-engine-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.3/junit-platform-suite-commons-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar:/home/kashiba/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.3/junit-jupiter-5.10.3.jar:/home/kashiba/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.3/junit-jupiter-api-5.10.3.jar:/home/kashiba/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.3/junit-jupiter-params-5.10.3.jar:/home/kashiba/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.3/junit-jupiter-engine-5.10.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire/surefirebooter-20240803102138968_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/kashiba/_github/try_Cucumber/hellocucumber/target/surefire/surefirebooter-20240803105748975_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu222.04"/>
     <property name="user.name" value="kashiba"/>
@@ -51,20 +51,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="The example" classname="An example" time="0.034">
-    <error message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.StepDefinitions.anExampleScenario(StepDefinitions.java:13)
-	at ✽.an example scenario(classpath:hellocucumber/example.feature:4)
-]]></error>
+  <testcase name="The example" classname="An example" time="0.039">
     <system-out><![CDATA[
 Scenario: The example                       &amp#27;[90m# hellocucumber/example.feature:3&amp#27;[0m
-  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33man example scenario&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.anExampleScenario()&amp#27;[0m
-      &amp#27;[33mio.cucumber.java.PendingException: TODO: implement me
-	at hellocucumber.StepDefinitions.anExampleScenario(StepDefinitions.java:13)
-	at ✽.an example scenario(classpath:hellocucumber/example.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mall step definitions are implemented&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe scenario passes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man example scenario&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.anExampleScenario()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mall step definitions are implemented&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe scenario passes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Friday is Friday" classname="An example" time="0.004">
+    <system-out><![CDATA[
+Scenario: Friday is Friday           &amp#27;[90m# hellocucumber/example.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is Friday&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.today_is_friday()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday yet&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"TGIF"&amp#27;[0m       &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
