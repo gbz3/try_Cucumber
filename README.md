@@ -23,3 +23,27 @@ $
 
 - [No arm64 support for openjdk-17-jdk?](https://askubuntu.com/questions/1483336/no-arm64-support-for-openjdk-17-jdk)
 - [VSCodeでJava開発をするための環境構築方法をまとめてみた！](https://note.com/liber_grp/n/n88f3f0a6fdf1)
+
+## 10 Minute Tutorial
+
+```
+$ mvn archetype:generate                      \
+   "-DarchetypeGroupId=io.cucumber"           \
+   "-DarchetypeArtifactId=cucumber-archetype" \
+   "-DarchetypeVersion=7.18.1"               \
+   "-DgroupId=hellocucumber"                  \
+   "-DartifactId=hellocucumber"               \
+   "-Dpackage=hellocucumber"                  \
+   "-Dversion=1.0.0-SNAPSHOT"                 \
+   "-DinteractiveMode=false"
+$ cd hellocucumber
+$ mvn test
+...
+Scenario: The example                       # hellocucumber/example.feature:3
+  Given an example scenario                 # hellocucumber.StepDefinitions.anExampleScenario()
+  When all step definitions are implemented # hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()
+  Then the scenario passes                  # hellocucumber.StepDefinitions.theScenarioPasses()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s -- in hellocucumber.RunCucumberTest
+...
+$ 
+```
